@@ -11,5 +11,5 @@ primary_region = "ams"
   auto_start_machines = true
 
   [[services.ports]]
-    port = 22
+    port = 443
     handlers = []
