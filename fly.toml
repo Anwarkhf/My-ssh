@@ -2,7 +2,7 @@ app = "my-ssh"
 primary_region = "ams"
 
 [[services]]
-  internal_port = 2222
+  internal_port = 22
   protocol = "tcp"
   auto_stop_machines = false
   auto_start_machines = true
