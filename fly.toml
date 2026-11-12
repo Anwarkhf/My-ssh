@@ -1,9 +1,6 @@
 app = "my-ssh"
 primary_region = "ams"
 
-[build]
-  image = "my-ssh-image"
-
 [[services]]
   internal_port = 2222
   protocol = "tcp"
